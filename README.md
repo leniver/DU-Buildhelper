@@ -1,14 +1,34 @@
-# du-lua-template
-Basic template for Dual Universe project on Visual Studio Code
+# Dual Universe Augmented Reality Tools  
 
-This template is using on [DU-LuaC](https://github.com/wolfe-labs/DU-LuaC) to compile the code and run it in Dual Universe.
+## Overview  
+This project provides augmented reality (AR) tools designed to assist builders in **Dual Universe**. With tools like the **Straight Line Drawing Tool**, you can create precise and symmetrical designs, making your building process more efficient and accurate.  
 
-## How to use this template
-You must first install [Visual Studio Code](https://code.visualstudio.com/) and [DU-Luac](https://github.com/wolfe-labs/DU-LuaC).
-You can follow the instruction on this [video](https://www.youtube.com/watch?v=vqdzu_Wn1Xs&ab_channel=Leniver)
+## Features  
+- **Straight Line Drawing Tool:**  
+  - Easily draw straight lines to help align and structure your builds.  
+  - Ideal for creating clean, symmetrical, and professional designs.  
 
-Once you have all setup, you can just download the template and open it in VSC.
-You have to run this command in the terminal to add the Codex to the project.
+## Installation  
+Follow these steps to set up the AR tools in your construct:  
+1. Add a **Programming Board** to the construct you are working on.  
+2. Open the JSON file from this repository and copy its contents.  
+3. Paste the copied JSON code into the **Programming Board**.  
+4. Link your **Core Unit** to the **Programming Board**.  
 
-```du-lua add-code-completion```
+That’s it! The tool is now ready to use.  
 
+## Usage  
+- Access the Programming Board to activate and control the tools.  
+- Use the Straight Line Drawing feature for precise alignment and construction.  
+
+## Roadmap  
+Planned features include:  
+- Additional drawing tools (curves, grids, etc.).  
+- Enhanced AR visualization of in-game structures.  
+- Integration with in-game Lua scripting for expanded functionality.  
+
+## Contributions  
+Contributions are welcome! Feel free to fork this repository, make improvements, and submit a pull request.  
+
+## License  
+This project is licensed under the [MIT License](LICENSE).  
