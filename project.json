@@ -1,0 +1,30 @@
+{
+  "cli": {
+    "fmtVersion": 3
+  },
+  "name": "Project skeleton",
+  "description": "Base skeleton project",
+  "sourcePath": "src",
+  "outputPath": "out",
+  "libs": [],
+  "builds": {
+    "main": {
+      "name": "main",
+      "type": "control",
+      "slots": {}
+    }
+  },
+  "targets": {
+    "development": {
+      "name": "development",
+      "minify": false,
+      "handleErrors": false
+    }
+  },
+  "internalPaths": [
+    "autoconf/",
+    "cpml/",
+    "pl/",
+    "utils/event"
+  ]
+}
