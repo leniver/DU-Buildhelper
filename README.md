@@ -1,4 +1,4 @@
-# Dual Universe Augmented Reality Tools  
+# Dual Universe Augmented Reality Tools for builders
 
 ## Overview  
 This project provides augmented reality (AR) tools designed to assist builders in **Dual Universe**. With tools like the **Straight Line Drawing Tool**, you can create precise and symmetrical designs, making your building process more efficient and accurate.  
