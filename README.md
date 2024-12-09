@@ -8,14 +8,14 @@ This project provides augmented reality (AR) tools designed to assist builders i
   - Easily draw straight lines to help align and structure your builds.  
   - Ideal for creating clean, symmetrical, and professional designs.  
 
+
 ## Installation  
 Follow these steps to set up the AR tools in your construct:  
-1. Add a **Programming Board** to the construct you are working on.  
-2. Open the JSON file from this repository and copy its contents.  
-3. Paste the copied JSON code into the **Programming Board**.  
-4. Link your **Core Unit** to the **Programming Board**.  
 
-That’s it! The tool is now ready to use.  
+- Add a **Programming Board** to the construct you are working on.
+- Open the JSON file from this repository and copy its contents.
+- Paste the copied JSON code into the **Programming Board**.
+- *(Optional)* If you want to save points from the last session, link a **Database** to the **Programming Board**.  
 
 ## Usage  
 - Access the Programming Board to activate and control the tools.  
