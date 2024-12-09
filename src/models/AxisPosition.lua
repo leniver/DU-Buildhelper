@@ -1,0 +1,5 @@
+---@class AxisPosition
+---@field position [number, number, number]
+---@field forward [number, number, number]
+---@field right [number, number, number]
+---@field up [number, number, number]

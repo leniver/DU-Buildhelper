@@ -1,19 +1,23 @@
 -- This is where you initialize your program
 local load = function()
-    --- math.randomseed(DUSystem.getUtcTime()) -- Uncomment this line if random is needed
+    local databank = DULibrary.getLinkByClass("DataBankUnit")
 
+    DUUnit.hideWidget()
+
+    Helper:new(DUUnit, DUSystem, DUConstruct, databank)
     --- local exampleObject = Example.new(DUSystem)
 end
 
-if localDirectory then
+---@if env "development"
     wrapper = Wrapper.new(DUUnit, DUSystem, DULibrary)
     -- In debug mode, declared lua files can be reloaded with Ctrl+Shift+R
     wrapper:reload(load, {
         localDirectory .. "includes/tools",
         localDirectory .. "includes/Wrapper",
-        -- Add lua file you want to be able to reload
+
+        localDirectory .. "classes/Helper",
         localDirectory .. "init"
     })
-else
+---@else
     load()
-end
+---@end

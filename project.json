@@ -2,8 +2,8 @@
   "cli": {
     "fmtVersion": 3
   },
-  "name": "Project skeleton",
-  "description": "Base skeleton project",
+  "name": "Build Helper",
+  "description": "Augmented Reality tools for Dual Universe builders",
   "sourcePath": "src",
   "outputPath": "out",
   "libs": [],
@@ -18,7 +18,18 @@
     "development": {
       "name": "development",
       "minify": false,
-      "handleErrors": false
+      "handleErrors": false,
+      "variables": {
+        "env": "development"
+      }
+    },
+    "production": {
+      "name": "production",
+      "minify": true,
+      "handleErrors": false,
+      "variables": {
+        "env": "production"
+      }
     }
   },
   "internalPaths": [

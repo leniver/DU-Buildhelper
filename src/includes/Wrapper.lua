@@ -80,7 +80,7 @@ end
 function Wrapper:reload(callback, localRequires)
     self.library.clearAllEventHandlers()
 
-    if debug then
+    if #localRequires > 0 then
         local shiftDown = false
         local ctrlDown = false
         ---@diagnostic disable-next-line: undefined-field

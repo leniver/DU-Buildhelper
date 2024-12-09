@@ -1,0 +1,7 @@
+---@class HelperConfig
+---@field lineColor string
+---@field lineWidth number
+---@field dotColor string
+---@field dotRadius number
+---@field subDotRadius number
+---@field hoverColor string
