@@ -46,6 +46,23 @@ To activate and control the tools, use the **Programming Board** and the followi
 - **`/config <key> <value>`**: Set a specific configuration.  
 - **`/help`**: Print this help message.  
 
+### Shortcut Keys  
+- **`R`**: Select the targeted point.  
+- **`Alt+1`**: Circle all **X** possibilities for the selected point.  
+- **`Alt+2`**: Circle all **Y** possibilities for the selected point.  
+- **`Alt+3`**: Circle all **Z** possibilities for the selected point.  
+- **`Alt+8`**: Add more sub-points to the lines.  
+- **`Shift+Alt+8`**: Reduce the number of sub-points on the lines.  
+- **`Ctrl+Alt+8`**: Reset the number of sub-points on the lines to the default value.  
+- **`Alt+9`**: Toggle rendering of the lines.  
+
+#### When a point is selected:  
+- **`Arrow-Left`**: Increase the **X** of the selected point.  
+- **`Arrow-Right`**: Decrease the **X** of the selected point.  
+- **`Alt+Arrow-Up`**: Increase the **Y** of the selected point.  
+- **`Alt+Arrow-Down`**: Decrease the **Y** of the selected point.  
+- **`Arrow-Up`**: Increase the **Z** of the selected point.  
+- **`Arrow-Down`**: Decrease the **Z** of the selected point.  
 
 ## Roadmap  
 Planned features include:  
