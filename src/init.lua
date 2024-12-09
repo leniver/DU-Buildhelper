@@ -8,8 +8,8 @@ local load = function()
     --- local exampleObject = Example.new(DUSystem)
 end
 
+wrapper = Wrapper.new(DUUnit, DUSystem, DULibrary)
 ---@if env "development"
-    wrapper = Wrapper.new(DUUnit, DUSystem, DULibrary)
     -- In debug mode, declared lua files can be reloaded with Ctrl+Shift+R
     wrapper:reload(load, {
         localDirectory .. "includes/tools",
