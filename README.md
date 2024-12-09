@@ -8,18 +8,44 @@ This project provides augmented reality (AR) tools designed to assist builders i
   - Easily draw straight lines to help align and structure your builds.  
   - Ideal for creating clean, symmetrical, and professional designs.  
 
+
 ## Installation  
 Follow these steps to set up the AR tools in your construct:  
-1. Add a **Programming Board** to the construct you are working on.  
-2. Open the JSON file from this repository and copy its contents.  
-3. Paste the copied JSON code into the **Programming Board**.  
-4. Link your **Core Unit** to the **Programming Board**.  
 
-That’s it! The tool is now ready to use.  
+- Add a **Programming Board** to the construct you are working on.
+- Open the JSON file from this repository and copy its contents.
+- Paste the copied JSON code into the **Programming Board**.
+- *(Optional)* If you want to save points from the last session, link a **Database** to the **Programming Board**.  
 
 ## Usage  
-- Access the Programming Board to activate and control the tools.  
-- Use the Straight Line Drawing feature for precise alignment and construction.  
+To activate and control the tools, use the **Programming Board** and the following commands:  
+
+### Point Commands  
+- **`/add <x>(+|-)<x_precision> <y>(+|-)<y_precision> <z>(+|-)<z_precision>`**: Add a point with voxel precision tools coordinates.  
+  - **Examples**:  
+    - `/add 23+45 132-22 77+1`  
+    - `/add 34 12+23 87`  
+- **`/rem`**: Remove the last inserted point.  
+- **`/move <x>(+|-)<x_precision> <y>(+|-)<y_precision> <z>(+|-)<z_precision>`**: Move the selected point to the new position.  
+  - **Examples**:  
+    - `/move 50+10 120-5 30+0`  
+    - `/move 10 20+15 40-3`  
+- **`/close`**: Close the shape (requires at least 3 points).  
+- **`/propagate <distance>`**: Propagate the last vector for the specified distance.  
+- **`/clear`**: Clear all points.  
+- **`/points`**: Print all points.  
+
+### Save Commands  
+- **`/save <name>`**: Save the current point configuration in the database with the given name.  
+- **`/restore <name>`**: Restore a point configuration from the database with the given name.  
+- **`/remove <name>`**: Remove a point configuration from the database with the given name.  
+- **`/displaysave`**: Display all saved point configurations.  
+
+### Global Commands  
+- **`/config`**: Print the current configuration.  
+- **`/config <key> <value>`**: Set a specific configuration.  
+- **`/help`**: Print this help message.  
+
 
 ## Roadmap  
 Planned features include:  
